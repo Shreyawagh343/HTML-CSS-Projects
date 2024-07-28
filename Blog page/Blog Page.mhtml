@@ -1,0 +1,82 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/blog.html
+Subject: Blog Page
+Date: Fri, 24 May 2024 13:57:40 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--e5RhDDAkWEkjvMu2ELXSDFVLmWbJQuUT9Km6eUABLT----"
+
+
+------MultipartBoundary--e5RhDDAkWEkjvMu2ELXSDFVLmWbJQuUT9Km6eUABLT----
+Content-Type: text/html
+Content-ID: <frame-FBB0CC72A72ACFA24A1A71A21017E524@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/blog.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Blog Page</title>
+   =20
+<link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/blog.css?_cacheOverr=
+ide=3D1716539245356"></head>
+<body>
+     <div class=3D"main">
+        <h1> MY BLOG </h1>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+     </div>
+     <div class=3D"middle">
+        <div class=3D"first">
+            <h1>Blog Post title</h1>
+            <p>Content of the first blog post...</p>
+           =20
+            <h1>Another Blog Post</h1>
+            <p>Content of the second blog post...</p>
+        </div>
+       =20
+     </div>
+     <footer>
+        <p>=C2=A9 2023 My Simple Blog</p>
+     </footer>
+<!-- Code injected by live-server -->
+
+
+</body></html>
+------MultipartBoundary--e5RhDDAkWEkjvMu2ELXSDFVLmWbJQuUT9Km6eUABLT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/blog.css?_cacheOverride=1716539245356
+
+@charset "utf-8";
+
+* { margin: 0px; padding: 0px; }
+
+.main { height: 12rem; width: 100%; background-color: purple; color: white;=
+ }
+
+.main h1 { font-size: 4rem; text-align: center; line-height: 7rem; }
+
+.main ul { display: flex; text-decoration: none; list-style: none; justify-=
+content: center; align-items: center; }
+
+.main li { font-size: 20px; font-family: "Gill Sans", "Gill Sans MT", Calib=
+ri, "Trebuchet MS", sans-serif; padding: 3px 36px; }
+
+.middle { height: 23rem; width: 80%; box-shadow: grey 10px 5px 5px; margin:=
+ 50px auto; }
+
+.first h1 { font-size: 2.8rem; text-transform: capitalize; font-family: "Gi=
+ll Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
+.first p { font-size: 1rem; text-transform: capitalize; margin: 20px 0px; }
+
+footer { height: 5rem; width: 100%; background-color: purple; color: white;=
+ font-size: 1.5rem; text-align: center; line-height: 5rem; }
+------MultipartBoundary--e5RhDDAkWEkjvMu2ELXSDFVLmWbJQuUT9Km6eUABLT------
